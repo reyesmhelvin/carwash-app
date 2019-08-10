@@ -4,7 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import './App.css';
 import HomePage from './pages/homepage/homepage.component';
 import ShopPage from './pages/shop/shop.component';
-import SignInSignOut from './pages/sign-in-sign-out/sign-in-sign-out.component';
+import SignInSignOut from './pages/sign-in-sign-up/sign-in-sign-up.component';
 import Header from './components/header/header.component';
 import { auth, createUserProfileDocument } from './firebase/firebase.util';
 
@@ -32,10 +32,12 @@ class App extends React.Component {
             }
 
           });
+
         });
 
+      } else {
+        this.setState({currentUser: this.unSubscribeFromAuth});
       }
-
       
 
     })
