@@ -36,7 +36,7 @@ class App extends React.Component {
         });
 
       } else {
-        this.setState({currentUser: this.unSubscribeFromAuth});
+        this.setState({currentUser: null});
       }
       
 
