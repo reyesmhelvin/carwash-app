@@ -6,7 +6,7 @@ import CheckoutItem from '../../components/checkout-item/checkout-item.component
 
 import './checkout.styles.scss';
 
-const CheckoutPage = ({checkoutItems, total}) => (
+const CheckoutPage = ({cartItems, total}) => (
     <div className ='checkout-page'>
         <div className ='checkout-header'>
             <div className='header-block'>
@@ -26,8 +26,8 @@ const CheckoutPage = ({checkoutItems, total}) => (
             </div>
         </div>
         {
-            checkoutItems.map((checkoutItem) => (
-                <CheckoutItem key={checkoutItem.id} checkoutItem={checkoutItem}/>
+            cartItems.map((cartItem) => (
+                <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
             ))
         }
         <div className='total'>${total}</div>
@@ -35,7 +35,7 @@ const CheckoutPage = ({checkoutItems, total}) => (
 )
 
 const mapStateToProps = createStructuredSelector({
-    checkoutItems: selectCartItems,
+    cartItems: selectCartItems,
     total: selectCheckoutItemTotal
 });
 
