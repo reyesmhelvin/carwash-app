@@ -1,38 +1,38 @@
 const DIRECTORY_DATA = [
     {
-        title: 'hats',
-        imageUrl: 'https://i.ibb.co/cvpntL1/hats.png',
+        title: 'Car Detailing',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/car-detailing.jpg',
         size: '',
         id: 1,
-        linkUrl: 'shop/hats'
+        linkUrl: 'shop/car-detailing'
     },
     {
-        title: 'jackets',
-        imageUrl: 'https://i.ibb.co/px2tCc3/jackets.png',
+        title: 'Painting',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/painting.jpg',
         size: '',
         id: 2,
-        linkUrl: 'shop/jackets'
+        linkUrl: 'shop/painting'
     },
     {
-        title: 'sneakers',
-        imageUrl: 'https://i.ibb.co/0jqHpnp/sneakers.png',
+        title: 'Restoration',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/restoration.jpg',
         size: '',
         id: 3,
-        linkUrl: 'shop/sneakers'
+        linkUrl: 'shop/restoration'
     },
     {
-        title: 'womens',
-        imageUrl: 'https://i.ibb.co/GCCdy8t/womens.png',
+        title: 'Car Wash',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/car-wash.jpg',
         size: 'large',
         id: 4,
-        linkUrl: 'shop/womens'
+        linkUrl: 'shop/car-wash'
     },
     {
-        title: 'mens',
-        imageUrl: 'https://i.ibb.co/R70vBrQ/men.png',
+        title: 'Sterile',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/sterile.jpg',
         size: 'large',
         id: 5,
-        linkUrl: 'shop/mens'
+        linkUrl: 'shop/sterile'
     }
 ];
 
