@@ -30,7 +30,7 @@ const CheckoutPage = ({cartItems, total}) => (
                 <CheckoutItem key={cartItem.id} cartItem={cartItem}/>
             ))
         }
-        <div className='total'>${total}</div>
+        <div className='total'>₱{total}</div>
     </div>
 )
 
