@@ -11,6 +11,7 @@ import ShopPage from './pages/shop/shop.component';
 import SignInSignOutPage from './pages/sign-in-sign-up/sign-in-sign-up.component';
 import Header from './components/header/header.component';
 import CheckoutPage from './pages/checkout/checkout.component';
+import Contact from './pages/contact/contact.component';
 
 import { setCurrentUser } from './redux/user/user.actions'
 import { selectCurrentUser } from './redux/user/user.selectors';
@@ -57,6 +58,7 @@ class App extends React.Component {
             <Route exact path='/' component={HomePage}/>
             <Route path='/shop' component={ShopPage}/>
             <Route exact path='/checkout' component={CheckoutPage}/>
+            <Route exact path='/contact' component={Contact}/>
             <Route path='/signin' render={() => this.props.currentUser ? (<Redirect to='/' />) : (<SignInSignOutPage />)}/>
           </Switch>
       </div>

@@ -29,7 +29,7 @@ const DIRECTORY_DATA = [
     },
     {
         title: 'Sterile',
-        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/sterile.jpg',
+        imageUrl: 'http://mhelvinreyes.com/wp-content/uploads/2019/08/sterile.png',
         size: 'large',
         id: 5,
         linkUrl: 'shop/sterile'
